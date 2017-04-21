@@ -7,6 +7,7 @@ body {
 
 .error {
     color: red;
+    font-weight: bold;
 }
 
 label {
@@ -69,4 +70,5 @@ nav ul li {
 
 nav #user-account {
     float: right;
+    padding-left: 300px;
 }
