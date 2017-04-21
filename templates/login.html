@@ -6,6 +6,9 @@
     <table style:width="100%">
     <h1>Login</h1>
 
+        <div class="error">{{ error }}</div>
+        <br>
+
         <tr>
             <td><label>Username</td></label>
             <td><input type='text' name='username' required value='{{username}}' ></td>
@@ -16,11 +19,10 @@
             <td><input type='password' name='password' required value='{{password}}' >
         </tr>
     </table>
-    <br>
-    <div class="error">{{ error }}</div>
-    <br>
+
     <input type="submit">
-    <br>
+    <br><br>
+    <div>Don't have an account? <a href="/signup"> Create one! </a></div>
 </form>
 
 {% endblock %}
